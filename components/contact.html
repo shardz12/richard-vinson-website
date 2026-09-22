@@ -59,10 +59,15 @@
 
                     </div>
 
-
                     <form
+                        name="contact"
+                        method="POST"
+                        data-netlify="true"
                         class="contact-form"
                         id="contactForm">
+
+                        <!-- CRITICAL FOR NETLIFY: Do not remove this line -->
+                        <input type="hidden" name="form-name" value="contact" />
 
                         <div class="form-row">
 
