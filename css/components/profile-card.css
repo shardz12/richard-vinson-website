@@ -1,0 +1,78 @@
+
+        .hero-card {
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+
+        .profile-wrapper {
+            position: relative;
+            width: min(360px, 100%);
+        }
+
+        .profile-box {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            background: var(--navy);
+            border-radius: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            box-shadow: 25px 25px 0 rgba(100, 133, 183, 0.25);
+        }
+
+        .profile-placeholder {
+            text-align: center;
+            color: white;
+            padding: 30px;
+        }
+
+        .profile-placeholder .initials {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            margin: auto auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--light-blue);
+            color: white;
+            font-size: 45px;
+            font-weight: 800;
+        }
+
+        .profile-placeholder p {
+            color: rgba(255,255,255,0.75);
+            font-size: 14px;
+        }
+        /* =========================
+           Richard
+        ========================= */
+        .profile-image {
+            width: 215px;
+            height: 276px;
+            padding: 5px;
+            border-radius: 110px 110px 110px 110px;
+            background: linear-gradient(135deg, #00f5ff, #7c3aed, #ff2d95);
+            box-shadow:
+                0 0 25px rgba(0, 245, 255, 0.35),
+                0 0 60px rgba(124, 58, 237, 0.25);
+            overflow: hidden;
+        }
+
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: contain;
+            object-position: center;
+            background: #0f172a;
+            border-radius: inherit;
+        }
+        .profile-image:hover {
+            transform: scale(1.08) rotate(2deg);
+            box-shadow:
+                0 0 30px rgba(0, 245, 255, 0.55),
+                0 0 70px rgba(255, 45, 149, 0.35);
+        }

@@ -1,0 +1,27 @@
+
+        footer {
+            padding: 25px 0;
+            background: #000d1f;
+            color: rgba(255,255,255,0.55);
+            font-size: 13px;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 18px;
+        }
+
+        .social-links a {
+            transition: 0.2s ease;
+        }
+
+        .social-links a:hover {
+            color: white;
+        }

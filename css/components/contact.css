@@ -1,0 +1,93 @@
+
+        .contact {
+            background: var(--navy);
+            color: white;
+        }
+
+        .contact .section-label {
+            color: #9bb8df;
+        }
+
+        .contact .section-heading h2 {
+            color: white;
+        }
+
+        .contact .section-heading p {
+            color: rgba(255,255,255,0.7);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 0.8fr 1.2fr;
+            gap: 60px;
+        }
+
+        .contact-details {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .contact-item {
+            padding: 20px;
+            border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 14px;
+            background: rgba(255,255,255,0.04);
+        }
+
+        .contact-item small {
+            display: block;
+            color: #9bb8df;
+            margin-bottom: 5px;
+        }
+
+        .contact-item span {
+            color: white;
+            word-break: break-word;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 15px 16px;
+            border: 1px solid rgba(255,255,255,0.15);
+            border-radius: 10px;
+            outline: none;
+            background: rgba(255,255,255,0.06);
+            color: white;
+            font-family: inherit;
+            font-size: 14px;
+        }
+
+        .contact-form input::placeholder,
+        .contact-form textarea::placeholder {
+            color: rgba(255,255,255,0.5);
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            border-color: #9bb8df;
+        }
+
+        .contact-form textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+
+        .contact-form button {
+            border: none;
+            cursor: pointer;
+            width: fit-content;
+        }
